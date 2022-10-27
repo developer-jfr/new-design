@@ -21,6 +21,9 @@ a {
   scroll-behavior: smooth;
 }
 
+.mobile-photo {
+  display: none;
+}
 /* ----------------------------- Custom Scrollbar ----------------------- */
 ::-webkit-scrollbar {
   width: 20px;
@@ -316,7 +319,10 @@ a {
 /* ----------------------- Location --------------------- */
 
 .location {
-  background: #000;
+  background: url('../images/map-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
   padding-top: 50px;
 }
 
@@ -489,20 +495,6 @@ a {
   padding-bottom: 80px;
 }
 
-.adventure-turn::before {
-  content: '';
-  position: absolute;
-  top: -81%;
-  left: -68%;
-  background: url('./../images/third-line.svg');
-  width: 100%;
-  height: 100%;
-  background-repeat: no-repeat;
-  background-position: 50% 45%;
-  transform: rotate(11deg);
-  z-index: -1;
-}
-
 .adventure-content {
   display: flex;
   gap: 50px;
@@ -566,8 +558,11 @@ color: #000000;
 /* ----------------------------- Tours ----------------------------------  */
 
 .tours-wrapp {
-  background: #000;
+  background: url('../images/tours-bg.png');
+  background-position: bottom;
+  background-repeat: no-repeat;
   padding-block: 70px;
+  background-size: cover;
 }
 
 .tours-title h2 {
@@ -668,22 +663,10 @@ color: #000000;
 
 .tours-title {
   font-size: 1.25rem;
-  margin-bottom: .25rem;
   position: relative;
 }
 
-.tours-title::after {
-  content: '';
-    position: absolute;
-    top: -30%;
-    left: 7%;
-    background: url('../images/desktop-04.svg');
-    width: 40%;
-    height: 40%;
-    background-repeat: no-repeat;
-    background-position: 50% 45%;
-    z-index: -1;
-}
+
 
 .tours-description {
   display: block;
@@ -789,18 +772,7 @@ color: #000000;
 
 /* -------------------- Testimonials ----------------------- */
 
-.testimonials-turn::before {
-  content: '';
-  position: absolute;
-  top: -30%;
-  left: 7%;
-  background: url('../images/fifth-line.svg');
-  width: 40%;
-  height: 40%;
-  background-repeat: no-repeat;
-  background-position: 50% 45%;
-  z-index: -1;
-}
+
 
 .testimonials-turn-place {
   margin-left: -110px;
@@ -1181,6 +1153,19 @@ font-size: 40px;
 
 
 @media screen and (max-width: 992px) {
+.position-mobile {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+  .desktop-photo {
+    display: none;
+  }
+
+  .mobile-photo {
+    display: block;
+  }
 
   .custom-navbar {
     padding-inline: 5%;
@@ -1634,6 +1619,11 @@ font-size: 40px;
     height: auto;
     opacity: 1;
     margin: 0;
+  }
+
+  .location-content span {
+    font-size: 20px;
+    line-height: 40px;
   }
 
   .hover-search span {
