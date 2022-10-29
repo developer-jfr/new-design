@@ -78,7 +78,7 @@ a {
 
 .ln-slider.swiper-slide-active img {
   width: 230px;
-  height: 311px;
+  height: 321px;
   transition: .5s;
 }
 
@@ -240,7 +240,6 @@ a {
 }
 
 .ln-slider.swiper-slide-active img {
-  border: 3px solid #E58620;
   border-radius: 20px;
 }
 
@@ -415,7 +414,6 @@ a {
 /* -------------------------- Stories --------------------------- */
 
 .stories {
-  padding-bottom: 120px;
   padding-top: 80px;
 }
 
