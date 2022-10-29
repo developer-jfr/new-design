@@ -318,8 +318,10 @@ a {
 /* ----------------------- Location --------------------- */
 
 .card-wrapper {
-  padding-inline: 10%;
+  padding-inline: 5%;
+  padding-top: 80px;
   padding-bottom: 70px;
+  gap: 100px;
 }
 
 .big-card {
@@ -328,8 +330,9 @@ a {
 }
 
 .big-card img {
-   height: 600px;
-   border-radius: 10px;
+  height: 60%;
+  width: 100%;
+  border-radius: 10px;
    padding-bottom: 20px;
 }
 
@@ -347,8 +350,8 @@ a {
 
 .card-item img {
    border-radius: 10px;
-   height: 200px;
-   width: 300px;
+   height: auto;
+   width: 40%;
 }
 
 .card-item div h2, .big-card h2 {
