@@ -949,6 +949,10 @@ font-size: 40px;
     font-size: 12px;
   }
 
+  .home {
+    padding-top: 150px !important;
+  }
+
   .home-title {
     padding-right: 300px;
     font-size: 32px;
