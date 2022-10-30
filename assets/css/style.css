@@ -239,10 +239,6 @@ a {
   display: none;
 }
 
-.ln-slider.swiper-slide-active img {
-  border-radius: 20px;
-}
-
 .sw-wrapp {
   position: relative;
 }
@@ -330,8 +326,8 @@ a {
 }
 
 .big-card img {
-  height: 60%;
-  width: 100%;
+  height: auto;
+  width: 60%;
   border-radius: 10px;
    padding-bottom: 20px;
 }
@@ -351,7 +347,7 @@ a {
 .card-item img {
    border-radius: 10px;
    height: auto;
-   width: 40%;
+   width: 100%;
 }
 
 .card-item div h2, .big-card h2 {
@@ -1116,7 +1112,7 @@ font-size: 40px;
 }
 
 .big-card img {
-  height: auto;
+   width: 100%;
 }
 
 
@@ -1125,11 +1121,7 @@ font-size: 40px;
     height: 231px;
   }
 
-  .ln-slider.swiper-slide-active img {
-    width: 150px;
-    height: 231px;
-  }
-
+ 
   .location-content h2 {
     font-size: 14px;
   }
