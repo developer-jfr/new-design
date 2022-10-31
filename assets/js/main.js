@@ -19,6 +19,22 @@ navbarImg.addEventListener("click", function () {
 
 //===================== Navbar Close End ==========================
 
+/*==================== Scroll Reveal Animation Start ====================*/
+const sr = ScrollReveal({
+  distance: "60px",
+  duration: 2800,
+  // reset: true,
+});
+
+sr.reveal(
+  `.hover-search`,
+  {
+    origin: "top",
+    interval: 100,
+  }
+);
+/*==================== Scroll Reveal Animation End ====================*/
+
 
 /*==================== First  Swiper On Landing Page  ====================*/
 let swiper = new Swiper(".slider-1", {
