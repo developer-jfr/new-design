@@ -39,9 +39,9 @@ let swiper = new Swiper(".slider-1", {
   breakpoints: {
     
     300: {
-      slidesPerView: 2.5,
+      slidesPerView: 2.1,
       centeredSlides: true,
-      spaceBetween: 40,
+      spaceBetween: 100,
     },
     700: {
       slidesPerView: 3
