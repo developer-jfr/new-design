@@ -41,7 +41,7 @@ let swiper = new Swiper(".slider-1", {
     300: {
       slidesPerView: 2.1,
       centeredSlides: true,
-      spaceBetween: 100,
+      spaceBetween: 50,
     },
     700: {
       slidesPerView: 3
